@@ -1,0 +1,44 @@
+
+@media screen and (min-width: 400px){
+    .logo-header {
+        margin: 15px;
+        width: 4rem;
+    }
+    .iconos {
+        width: 4rem;
+        padding: 15px;
+    }
+    .profile {
+        margin: 0 0 0 20px;
+        width: 20%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    div.experiencia-box img {
+        width: 20%;
+    }
+
+
+    .codificacion {
+        width: 10%;
+    }
+
+    
+
+    .hobbies-img {
+        width: 4rem;
+    }
+}
+
+@media screen and (min-width: 700px){
+    
+    .hobbies-img {
+        width: 4rem;
+    }
+
+    div.experiencia-box img {
+        width: 20%;
+    }
+
+}

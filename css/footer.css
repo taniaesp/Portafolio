@@ -1,0 +1,9 @@
+@media screen and (min-width: 400px) {
+    .footer {
+        background-color: rgb(217, 217, 223);
+        margin-top: 15%;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 100px;
+    }
+}

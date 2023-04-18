@@ -1,0 +1,22 @@
+@media screen and (min-width: 400px){
+    .about{
+        padding: 10px 10px;
+        margin: 15px 15px;
+        background-color: #071129;
+    }
+    div .text-about {
+        font-size: 26px;
+        color: #ABB2B9;
+    }
+
+    div .text-about-p {
+        font-size: 22px;
+        color: #7590ab;
+    }
+     
+
+    section.about div.about-container img {
+        margin: 16px;
+    }
+    
+}

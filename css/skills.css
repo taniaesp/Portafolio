@@ -1,0 +1,42 @@
+@media screen and (min-width: 400px){
+    
+
+/*Habilidades*/
+    section .skills {
+        padding-right: 10px;
+    }
+    h3.section-title {
+        color: rgb(183, 152, 211);
+        font-size: 28px;
+    }
+
+    section.skills div.skills-line {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    section.skills div.skills-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 16px ;
+        background-color: #698296;
+        margin: 22px 10px 22px 10px;
+        width: 200px;
+        height: 118px;
+    }
+
+    section.skills div.skills-line div.skills-box ul {
+        margin:  0;
+        padding: 0;
+    
+    }
+
+    section.skills div.skills-line div.skills-box ul li {
+        font-size: 20px;
+    }
+
+     
+}

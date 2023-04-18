@@ -1,0 +1,72 @@
+@media screen and (min-width:400px) {
+    section.experience {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: flex-end;
+        margin-top: 13px;
+    }
+    h2.section-title {
+        color: rgb(183, 152, 211);
+        font-size: 30px;
+    }
+
+    section.experience div.experiencia-box {
+        margin: 0 32px 64px 32px;
+    }
+
+    section.experience div.experiencia-box img.frutayfruto {
+        margin-bottom: 16px;
+        width: 30%;
+    
+    }
+    section.experience div.experiencia-box img.encriptador {
+        margin-bottom: 16px;
+        width: 50%;
+    }
+
+
+    section.experience div.experiencia-box h2 {
+        font-weight: 700;
+        font-size: 16px;
+        color: rgb(183, 152, 211);
+    }
+
+    section.experience div.experiencia-box h3 {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    section.experience div.experiencia-box div.experience-description {
+        display: flex;
+    }
+
+    section.experience div.experiencia-box span.experience-repo button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        border: 1px solid #2a7ae4;
+        color: #2a7ae4;
+        box-sizing: border-box;
+    }
+
+    section.experience div.experiencia-box span.experience-demo button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 16px;
+        margin-left: 16px;
+        border: 1px solid #2a7ae4;
+        background: #2a7ae4;
+        color: white;
+    }
+    
+    section.experience img {
+        width: 50%;
+    }
+
+}
