@@ -7,60 +7,19 @@
         display: flex;
         flex-direction: column;
         overflow: hidden;
-        background-color: #36073b;
+        background-color: hsl(285, 5%, 85%);
     }
 
-    section.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-end;
-    height: 10vh;
-    background-color: #730080;
-    }
-
-    section header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 30px;
-    color:  #36073b;
-    }
-
-
-
-    section header h3.menu-title {
-        margin-left: 8px;
-    }
-    div .title div {
-        background-color: #0b0700 ;
-    }
-
-    div .title-container  {
-        margin-bottom: 50px;
-        background-color: #0f1626;
-    }
+Header {
+    background-color: #ffffffcc;
+    
+}
 
     /* Para cambiar menu de navegacion tenemos que elegir un display flex*/
-    section.menu nav.nav-list ul.menu-list {
-        display: none;
-    
-    }
     
 
-    .menu-list-item-c {
-        font-size: 24px;
-        font-weight: 400;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: #36073b;
-        margin-right: 10px;
-    }
+    
 
-    .content-items{
-        display: flex;
-        flex-direction: column;
-    }
+    
 }
 
