@@ -3,7 +3,7 @@
     .formcontacto {
         background: #36073b;
         padding: 16px;
-        width: 500px;
+        width: 400px;
         height: 450px;
         align-content: center;
         text-align: center;
@@ -17,7 +17,7 @@
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: space-between;
-        width: 400px;
+        width: 300px;
         align-items: center;
         margin-top: 10px;
         margin-left: 50px;
@@ -27,13 +27,24 @@
 
     }
 
-
     section.formcontacto .contact {
         margin: 30px;
         padding-bottom: 10%;
     }
 
+    form {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+        
+    }
 
+    textarea {
+        width: 200px;
+    }
 
     
 }
