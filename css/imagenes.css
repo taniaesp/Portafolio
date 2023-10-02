@@ -6,13 +6,14 @@
     }
     .iconos {
         width: 4rem;
-        padding: 15px;
+        padding: 9%;
     }
     .profile {
         margin: 0 0 0 20px;
-        width: 20%;
-        height: auto;
+        width: 30vh;
+        height: 30vh;
         border-radius: 50%;
+        margin-left: 14%;
     }
 
     div.experiencia-box img {

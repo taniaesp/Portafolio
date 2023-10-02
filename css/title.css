@@ -14,15 +14,15 @@
         font-size: 42px;
         font-weight: 700;
         line-height: 26px;
-        color: #610a6b;
+        color: #1f0422;
     }
 
     section.title  div.title-container h3 {
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 28px;
         line-height: 26px ;
-        color: #891297;
+        color: #4e2a52;
     }
 
     section.title div.title-div div.title-container ul {
@@ -48,6 +48,6 @@
 
     .text__items-title {
         font-size: 30px;
-        color: #cd96d3;
+        color: #2a0a2e;
     }
 }

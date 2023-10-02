@@ -11,6 +11,10 @@ nav {
     display:flex;
     
 }
+a.navbar-brand{
+    font-size: 28px;
+}
 .navbar-collapse {
     justify-content: flex-end;
+    font-size: 20px;
 }
