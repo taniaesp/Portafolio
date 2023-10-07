@@ -1,4 +1,9 @@
 @media screen and (min-width: 400px) {
+    footer {
+        margin-left: 0px;
+        margin-right: 30px;
+
+    }
     .containeRodape {
         background-color: rgb(217, 217, 223);
         margin-top: 15%;
