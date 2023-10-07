@@ -30,19 +30,19 @@ ScoobyDoo.color = "cafe con manchas negras"
 //document.write('Hola mundo'+ nombre);
 
 let titulo = document.getElementById('titulo');
-console.log(titulo)
+console.log(titulo);
 
 let objetoDeLabibliotecatypewriter = new Typewriter(titulo, {
     loop: true
 });
 
 objetoDeLabibliotecatypewriter
-    .typeString('Hello World!')
+    .typeString('Tania Espinoza')
     .pauseFor(2500)
-    .deleteAll()
-    .typeString(<h1 id="titulo" class="display-5 fw-bold text-body-emphasis">Desarrolladora Front-end</h1>)
+    .deleteAll(14)
+    .typeString('Desarrolladora Front-end')
     .pauseFor(2500)
-    .deleteChars(7)
-    .typeString('<strong>altered!</strong>')
+    .deleteChars(15)
+    .typeString('o de paginas web')
     .pauseFor(2500)
     .start();
