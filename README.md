@@ -9,7 +9,7 @@ Incluye recursos multimedia
 <a href="" target="_blank"> **Visitalo ahora** 🚀</a>
 
 sobre mi:
-![Alt text](assets/...)
+![Alt text](img/portafolio-foto.png)
 
 ## Índice
 1. Intro
