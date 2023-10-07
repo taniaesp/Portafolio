@@ -10,10 +10,11 @@
     }
     .profile {
         margin: 0 0 0 20px;
-        width: 30vh;
-        height: 30vh;
-        border-radius: 50%;
-        margin-left: 14%;
+        width: 20vh;
+        border-radius: 175px;
+        margin-left: 19%;
+        border-color: black;
+        box-shadow: 12px 9px 8px 5px rgb(15, 14, 14);
     }
 
     div.experiencia-box img {
