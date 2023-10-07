@@ -22,8 +22,8 @@ sobre mi:
 
 ## 📬 contacto
 
-Si estas interesad@ en compartir o conectar para algun proyecto o oportunidad laboral, puedes contactarme.
+Si estas interesad@ en compartir o conectar para algun proyecto U oportunidad laboral, puedes contactarme.
 
-<a href="https://www.linkedin.com/in/estephania-espinoza-172470228/"> <img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img>> </a>
+<a href="https://www.linkedin.com/in/estephania-espinoza-172470228/"> <img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img> </a>
  
  © 2023 Tania Espinoza (Programa Technolochicas PRO)
