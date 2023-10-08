@@ -1,0 +1,10 @@
+#containerCard {
+    background-image: url(/img/frutayfruto.jpeg);
+    background-size: 100%;
+}
+.CarouselSection{
+    max-width: 75%;
+    margin-left: 12.5%;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
