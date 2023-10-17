@@ -1,11 +1,26 @@
-/* Mobile */
-@media screen and (min-width: 400px) {
-    .title div img {
-        width: 250px;
-        height: 250px;
-        border-radius: 75%;
-    }
-    button :hover {
-        color: blue;
-    }
+.px-4 .py-5 .my-5 .text-center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div .containerPerfil {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    align-content: center;
+    box-shadow: rgb(9, 13, 68) 5px 8px 6px 2px;
+    border-radius: 55%;
+    Margin: 6px 710px;
+}
+
+.perfil{
+    width: 32vh;
+    height: 38vh;
+    border-radius: 55%;
+}
+
+
+button :hover {
+    color: blue;
 }
