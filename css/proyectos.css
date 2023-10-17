@@ -1,10 +1,51 @@
+.col{
+    height: 250px;
+}
 #containerCard {
     background-image: url(/img/frutayfruto.jpeg);
     background-size: 100%;
 }
+
+li a img {
+    background-color: aliceblue;
+}
+
+li a img:hover{
+    background-color: rgb(86, 30, 238);
+}
+.buttonNetlify a{
+    color: rgb(223, 231, 238);
+    font-weight: 400;
+}
+
+.buttonNetlify a:hover{
+    color: rgb(32, 140, 235);
+}
+#containerCardTwo{
+    background-image: url(/img/encriptador.png);
+    background-size: 100%;
+}
+
+#containerCardThree{
+    background-image: url(/img/apeperia.png);
+    background-size: 100%;
+}
+
+button {
+    background-color: rgba(3, 22, 129, 0.918);
+    color: antiquewhite;
+    border-radius: 15px;
+    
+}
+button:hover{
+    border-color: rgb(0, 171, 223);
+}
+
+
+
+
 .CarouselSection{
     max-width: 75%;
     margin-left: 12.5%;
     background-color: rgba(0, 0, 0, 0.808);
 }
-
