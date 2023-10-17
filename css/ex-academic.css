@@ -1,9 +1,13 @@
 @media screen and (min-width: 400px) {
     section.academic {
+        display: flex;
+        justify-content: center ;
+        flex-direction: column;
         background-color: #EAF2FD;
     }
 
     section.academic div.courses {
+        display: flex;
         margin: 0 auto;
         text-align: center;
     }
@@ -14,16 +18,25 @@
     }
 
     section.academic div.courses ul li {
-        padding: 0;
-        margin: 32px;
+        padding: 10px;
+        margin: 23px 15px;
+    }
+
+    section.academic div.courses ul li.course-img-a  {
+        padding-top: 5px;
+    }
+
+    section.academic div.courses ul li.course-img-t  {
+        padding-top: 5px;
     }
 
     section.academic div.courses ul li img:nth-child(1){
-        margin-top: 18px;
+        height: 20vh;
     }
 
     section.academic div.courses ul li.course-img {
-        background-color: white;
+        
+        padding: 1% 5%;
     }
 
     section.academic div.courses ul li.course-title h4 {
