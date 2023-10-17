@@ -1,5 +1,5 @@
-@media screen and (min-width: 300px){
-    
+body{
+    width: 100%;
 }
 header{
     background-color: #f8f9fa;
@@ -21,18 +21,4 @@ a.navbar-brand{
     justify-content: flex-end;
     font-size: 20px;
 }
-/*@media  screen and  (min-width: 700px) {
-    
-    
-}
 
-@media screen and (min-width: 1000px) {
-
-    
-}
-
-
-@media screen and (min-width: 1440px) {
-
-
-}*/
