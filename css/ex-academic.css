@@ -13,17 +13,17 @@
     }
 
     section.academic div.courses ul {
-        margin: 0;
-        padding: 0;
+        margin: 10px 0;
+        padding: 10px 0;
     }
 
     section.academic div.courses ul li {
-        padding: 10px;
-        margin: 23px 15px;
+        padding: -7px 10px;
+        margin: 0px 15px;
     }
 
     section.academic div.courses ul li.course-img-a  {
-        padding-top: 5px;
+        padding: 5px;
     }
 
     section.academic div.courses ul li.course-img-t  {

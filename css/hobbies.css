@@ -8,17 +8,7 @@
         justify-content: space-around;
     }   
     
-    section.hobbies-section div.hobbies-line div.hobbies-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-start;
-        padding: 16px ;
-        background-color: #698296;
-        margin: 22px 10px 22px 10px;
-        width: 200px;
-        height: 118px;
-    }
+    
     section.hobbies-section div.hobbies-line div.hobbies-box {
         padding: 0;
     }
