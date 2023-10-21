@@ -1,55 +1,55 @@
-@media screen and (min-width: 400px) {
-    section.academic {
-        display: flex;
-        justify-content: center ;
-        flex-direction: column;
-        background-color: #EAF2FD;
-    }
 
-    section.academic div.courses {
-        display: flex;
-        margin: 0 auto;
-        text-align: center;
-    }
+section.academic {
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #EAF2FD;
+}
 
-    section.academic div.courses ul {
-        margin: 10px 0;
-        padding: 10px 0;
-    }
+section.academic div.courses {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
 
-    section.academic div.courses ul li {
-        padding: -7px 10px;
-        margin: 0px 15px;
-    }
+section.academic div.courses ul.alura-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    section.academic div.courses ul li.course-img-a  {
-        padding: 5px;
-    }
-
-    section.academic div.courses ul li.course-img-t  {
-        padding-top: 5px;
-    }
-
-    section.academic div.courses ul li img:nth-child(1){
-        height: 20vh;
-    }
-
-    section.academic div.courses ul li.course-img {
-        
-        padding: 1% 5%;
-    }
-
-    section.academic div.courses ul li.course-title h4 {
-        font-weight: 700;
-        font-size: 16px;
-        margin-bottom: -25px;
-        text-align: center;
-    }
-
-    section.academic div.courses ul li.course-subtitle {
-        font-weight: 500;
-        font-size: 14px;
-        text-align: center;
-    }
+section.academic div.courses ul li {
+    padding: 10px;
     
+}
+
+section.academic div.courses ul li.course-img-a  {
+    padding: 5px;
+}
+
+section.academic div.courses ul li.course-img-t  {
+    padding-top: 5px;
+}
+
+section.academic div.courses ul li img:nth-child(1){
+    height: 20vh;
+}
+
+section.academic div.courses ul li.course-img {
+    padding: 1% 5%;
+}
+
+section.academic div.courses ul li.course-title h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: -25px;
+    text-align: center;
+}
+
+section.academic div.courses ul li.course-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
 }
