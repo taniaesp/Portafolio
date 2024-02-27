@@ -4,14 +4,15 @@
     justify-content: center;
     flex-direction: column;
 }
+
 div .containerPerfil {
     display: flex;
     justify-content: center;
     width: auto;
     align-content: center;
-    box-shadow: rgb(9, 13, 68) 5px 8px 6px 2px;
+    box-shadow: rgb(96, 32, 151) 5px 8px 6px 2px;
     border-radius: 55%;
-    Margin: 6px 710px;
+    Margin: 6px 865px;
 }
 
 .perfil{
@@ -19,6 +20,8 @@ div .containerPerfil {
     height: 38vh;
     border-radius: 55%;
 }
+
+
 
 
 button :hover {
