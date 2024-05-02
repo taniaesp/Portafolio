@@ -1,10 +1,12 @@
 body{
-    width: 100%;
+    background-image: url(/img/code-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 header{
-    background-color: #f8f9fa;
+    display: flex;
 }
-.container{
+.container-nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,9 +18,5 @@ nav {
 }
 a.navbar-brand{
     font-size: 28px;
-}
-.navbar-collapse {
-    justify-content: flex-end;
-    font-size: 20px;
 }
 
