@@ -1,22 +1,45 @@
+*{
+    margin: 10px;
+}
 body{
     background-image: url(/img/code-background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    width: 100%;
 }
 header{
     display: flex;
 }
 .container-nav{
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: space-between;
-    align-content: center;
-}
-nav {
-    display:flex;
-    
-}
-a.navbar-brand{
-    font-size: 28px;
+    align-items: center;
 }
 
+@media screen and (min-width: 400px){
+
+
+    ol{
+        display: flex;
+        justify-content: space-between;
+    }
+    li {
+        font-size: 40px;
+
+    }
+    .permanent-marker-regular {
+        font-family: "Permanent Marker", cursive;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    nav {
+        display:flex;
+        
+    }
+    a.navbar-brand{
+        font-size: 28px;
+    }
+
+}

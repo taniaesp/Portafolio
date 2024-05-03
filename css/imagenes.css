@@ -17,7 +17,7 @@
     }
 
     div.experiencia-box img {
-        width: 20%;
+        width: 10%;
     }
 
 
@@ -29,6 +29,10 @@
 
     .hobbies-img {
         width: 4rem;
+    }
+
+    .d-block w-100 opacity-25{
+        width: 300px;
     }
 }
 

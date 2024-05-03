@@ -5,6 +5,7 @@ section.academic {
     flex-direction: column;
     justify-content: space-around;
     background-color: #EAF2FD;
+    
 }
 
 section.academic div.courses {
