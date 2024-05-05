@@ -1,11 +1,8 @@
-*{
-    margin: 10px;
-}
+
 body{
     background-image: url(/img/code-background.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 100%;
 }
 header{
     display: flex;
@@ -14,8 +11,9 @@ header{
 .container-nav-father{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    height: 80px;
 
 
 }
@@ -25,21 +23,54 @@ header{
         font-style: normal; 
     }
 
-@media screen and (min-width: 400px){
-
-
-    
-    
-
-    .logo{
+@media screen and (min-width: 300px){
+    body{
+        background-color: rgb(192, 131, 249);
+    }
+    .container-nav-father{
         display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+        flex-wrap: nowrap;
+    
+    
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 15px;
+        margin-top: 10px;
+
+    }
+    .logo-header {
+        width: 20%;
     }
     ol{
-        
+       display: flex;
+       justify-content: space-around;
+       padding-top: 10px;
+       
+       
     }
-    li {
-    font-size: 40px;
+    li.permanent-marker-regular{
+        font-size: 45px;
+        padding-right: 20px;
 
+    }
+    li a{
+        color: rgb(255, 132, 204);
+        padding-right: 30px;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .menu{
+        display: flex;
     }
 }
 
@@ -47,8 +78,19 @@ header{
     header {
         display: flex;
         flex-direction: row;
-
-
+    }
+    .container-nav-father{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 80px;
+    
+    
+    }
+    div.logo{
+        width: auto;
     }
     .menu{
         display: inline-flex;
@@ -58,9 +100,14 @@ header{
     }
     ol{
         display: flex;
+        padding-top: 0;
+        margin-top: 2px;
     }
-    li {
-        
+    li{
+        margin: 0px 10px;
+    }
+    li a:hover{
+        color: azure;
     }
 
 }
