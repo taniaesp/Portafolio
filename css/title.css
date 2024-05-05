@@ -13,7 +13,7 @@ button :hover {
     color: blue;
 }
 
-@media screen and (min-width: 300px){
+@media screen and (min-width: 320px){
     div .containerPerfil {
     display: flex;
     justify-content: center;
@@ -31,8 +31,9 @@ button :hover {
         height: 15%;
         border-radius: 35%;
     }
-    .px-4 .py-5 .my-5 .text-center {
-        margin: 20px;
+    div.px-4 {
+        margin-top: 20px;
+        margin-bottom: 0px;
     }
     p.lead {
         font-size: 42px;
@@ -47,6 +48,14 @@ button :hover {
     }
     div.col-lg-6 {
         padding-top: 30px;
+    }
+    .btn-outline-secondary{
+        width: 150px;
+        height: 150px;
+    }
+    svg.bi{
+        width: 100px;
+        height: 100px;
     }
 
 }
