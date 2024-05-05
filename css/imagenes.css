@@ -1,20 +1,17 @@
 
-@media screen and (min-width: 400px){
-    .logo-header {
-        margin: 5px;
-        width: 6rem;
-    } /*Logo restaurado !!!*/
+@media screen and (min-width: 320px){
+    /*Logo restaurado !!!*/
     .iconos {
         width: 4rem;
         padding: 9%;
     }
-    .profile {
-        margin: 0 0 0 20px;
+    /*.perfil {
+        margin: 0 0 0 0px;
         width: 20vh;
-        border-radius: 175px;
+        border-radius: ;
         border-color: black;
-        box-shadow: 12px 9px 8px 5px rgb(15, 14, 14);
-    }
+        box-shadow: 12px 9px 8px 5px rgb(167, 86, 86);
+    }*/
 
     div.experiencia-box img {
         width: 10%;
